@@ -14,7 +14,7 @@ This project contains the Back End for the application if you wish to review the
 
 You can find the **online version API** of the repository at: [API](https://us-central1-financial-system-ecci.cloudfunctions.net/api)
 
-Additional API documentation can be found at: [https://ecci-financial-system.herokuapp.com/api](https://financial-system-ecci.web.app/api)
+Additional API documentation can be found at: [https://financial-system-ecci.web.app/api](https://financial-system-ecci.web.app/api)
 
 # Installation
 
