@@ -57,5 +57,9 @@ app.post('/rateconverter', (request, response) => {
         })
     });
 });
+// Init status server
+app.get('/', (request, response) => {
+    return response.json({ satus: 'succes', server: 'API running and ready to receive requests.' })
+});
 
 module.exports = app;
