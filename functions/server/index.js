@@ -26,8 +26,8 @@ app.post('/annuity', (request, response) => {
  * 
  */
 app.post('/annuity/getamortization', (request, response) => {
-    let { deadline, value, annuity, interest } = request.body;
-    getAmortization(deadline, value, annuity, interest).then(result => {
+    let { deadline, value, annuity, interest, extra, payments } = request.body;
+    getAmortization(deadline, value, Number(annuity), interest, extra, payments).then(result => {
         response.json({
             status: 'success',
             rest: result
